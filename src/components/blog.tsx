@@ -11,7 +11,7 @@ let heros = [
 
 const Blogs = () => {
   return (
-    <div id="blogPage" className="flex flex-col items-center md:h-200 h-300 w-full bg-white">
+    <div id="blogPage" className="flex flex-col items-center md:h-200 h-fit w-full bg-white">
       <div className="text-black font-bold flex gap-2 md:text-4xl md:py-10 py-5 text-2xl">
         MY <div className="text-red-500">VASSAL</div>
       </div>
