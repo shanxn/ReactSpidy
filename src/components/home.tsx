@@ -111,7 +111,7 @@ const Home = () => {
       <div
         id="homePage"
         ref={bannerRef}
-        className="relative cursor-[url(src/assets/Spiderman Logo Trace.jpg)] w-full h-screen flex flex-col justify-center text-5xl font-bold items-center"
+        className="relative w-full h-screen flex flex-col justify-center text-5xl font-bold items-center"
       >
         <canvas
           ref={canvasRef}

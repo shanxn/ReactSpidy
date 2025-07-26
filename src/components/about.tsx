@@ -1,10 +1,12 @@
+
+import spiderman from '../assets/spider-man-across-8000x4500-10138.png';
 const About = () => {
   return (
     <div
       id="aboutPage"
       className="flex flex-row items-center md:h-300 h-200 w-full justify-evenly bg-white/30"
     >
-      <div className="md:w-1/4 shadow-2xl w-3/7 md:h-2/4 h-2/7 bg-[url(src/assets/spider-man-across-8000x4500-10138.png)] rounded-2xl bg-center bg-cover mx-10 "></div>
+      <div style={{ backgroundImage: `url(${spiderman})` }} className="md:w-1/4 shadow-2xl w-3/7 md:h-2/4 h-2/7 rounded-2xl bg-center bg-cover mx-10 "></div>
       <div className="flex w-2/4 gap-2 flex-col items-center">
         <div className="text-white w-full flex justify-center gap-2 font-bold md:text-4xl text-xl">
           ABOUT <div className="text-red-500">ME</div>
