@@ -2,7 +2,7 @@
   "name": "react-template-recreate",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shanxn.github.io/ReactSpidy",
+  "homepage": "https://shanxn.github.io/ReactSpidy/",
   "type": "module",
   "scripts": {
     "dev": "vite",
